@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/logo.png">
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/js/all.min.js"
+        integrity="sha512-yk7SvYYZqGS11tWcb6cyoKiwgrNBeCHC7RebrVa0QOySVjh6WjEjaBaBue+VvDBHEfAGa0Z8/b6+LhoGSeweaw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./styles/predefined.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.min.css">
+
+    <!-- Page Title -->
+    <title>Qubly Dribbble</title>
+</head>
+
+<body>
+    <!-- ————— Header ————— -->
+    <header id="header">
+        <div class="container mx-auto">
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="/">
+                        <img src="./images/logo.png" alt="logo">
+                    </a>
+                </div>
+
+                <nav id="nav">
+                    <button class="sideMenuClose" onclick="closeSideMenu()">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="none" stroke="#000" stroke-width="2" d="M3,3 L21,21 M3,21 L21,3"></path>
+                        </svg>
+                    </button>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                About
+                                <img src="./svg/downArrow.svg" alt="down arrow">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Pricing
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Login
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Get Started
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="sideMenuShowButton" onclick="openSideMenu()">
+                    <svg fill="black" stroke-width="0" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ————— Intro - Section 1 ————— -->
+    <section id="intro">
+        <img src="./images/triangle.png" alt="triangle" class="triangle">
+
+        <div class="container mx-auto">
+            <div class="wrapper">
+                <div class="content">
+                    <div class="announcement">
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                <path
+                                    d="M13,6a.75.75,0,0,1-.75-.75,1.5,1.5,0,0,0-1.5-1.5.75.75,0,0,1,0-1.5,1.5,1.5,0,0,0,1.5-1.5.75.75,0,0,1,1.5,0,1.5,1.5,0,0,0,1.5,1.5.75.75,0,0,1,0,1.5,1.5,1.5,0,0,0-1.5,1.5A.75.75,0,0,1,13,6Z"
+                                    fill="#722ed1" />
+                                <path
+                                    d="M6,16a1,1,0,0,1-1-1,4,4,0,0,0-4-4A1,1,0,1,1,1,9,4,4,0,0,0,5,5,1,1,0,0,1,7,5a4,4,0,0,0,4,4,1,1,0,0,1,0,2,4,4,0,0,0-4,4,1,1,0,0,1-1,1Z"
+                                    fill="#722ed1" />
+                            </svg>
+                            v3.1 released.
+                            <a href="#">Learn More</a>
+                        </p>
+                    </div>
+                    <div class="title">
+                        <h2>
+                            Your data with
+                            real-time analytics
+                        </h2>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Harness the potential of Big Data Analytics & Cloud Services and become a data-driven
+                            organization with Needle tail
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="#">Start Free Trial</a>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./images/intro.png" alt="intro">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ————— Why - Section 2 ————— -->
+    <section id="why">
+        <div class="container mx-auto">
+            <div class="wrapper">
+                <!-- ——— Top ——— -->
+                <div class="top">
+                    <div class="limiter mx-auto">
+                        <div class="tag">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25.776" height="17.184"
+                                    viewBox="0 0 25.776 17.184">
+                                    <path
+                                        d="M25.62,12.439A14.353,14.353,0,0,0,12.888,4.5,14.355,14.355,0,0,0,.156,12.439a1.448,1.448,0,0,0,0,1.306,14.353,14.353,0,0,0,12.732,7.939A14.355,14.355,0,0,0,25.62,13.745,1.448,1.448,0,0,0,25.62,12.439Zm-12.732,7.1a6.444,6.444,0,1,1,6.444-6.444A6.444,6.444,0,0,1,12.888,19.536Zm0-10.74a4.265,4.265,0,0,0-1.133.17,2.141,2.141,0,0,1-2.994,2.994A4.286,4.286,0,1,0,12.888,8.8Z"
+                                        transform="translate(0 -4.5)" fill="#722ed1" />
+                                </svg>
+                                Why Qubly
+                            </p>
+                        </div>
+                        <div class="title">
+                            <h2>Get actionable insights from Big Data in 3 steps</h2>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt
+                                ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ——— Bottom ——— -->
+                <div class="whyCards">
+                    <!-- ——— 1 ——— -->
+                    <div class="whyCard">
+                        <div class="icon">
+                            <i style="background-color: #F6FFED;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.437"
+                                    viewBox="0 0 16 16.437">
+                                    <g transform="translate(-0.219)">
+                                        <g>
+                                            <path
+                                                d="M14.568,0H13.541V7.7H12V8.732h1.541v7.7h1.027V13.355h1.541V12.328H14.568V4.109h1.541V3.082H14.568Z"
+                                                transform="translate(-5.836)" fill="#52c41a" />
+                                            <rect width="5" height="5" rx="1" transform="translate(11.219 1.219)"
+                                                fill="#52c41a" />
+                                            <rect width="5" height="5" rx="1" transform="translate(11.219 10.219)"
+                                                fill="#52c41a" />
+                                            <rect width="5" height="6" rx="1" transform="translate(0.219 5.219)"
+                                                fill="#52c41a" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </i>
+                        </div>
+                        <div class="title">
+                            <h3>Data in real-time</h3>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Collect data in real-time from multiple channels and move it into a data lake, in
+                                its original format.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ——— 2 ——— -->
+                    <div class="whyCard">
+                        <div class="icon">
+                            <i style="background-color: #FFF1F0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16.092" height="16.092"
+                                    viewBox="0 0 16.092 16.092">
+                                    <g>
+                                        <path
+                                            d="M4.111,7.973V1.006h9.052V7.973l2.907-1.615-1.9-1.115V.5a.5.5,0,0,0-.5-.5H3.608a.5.5,0,0,0-.5.5V5.241L1.188,6.35Z"
+                                            transform="translate(-0.591)" fill="#f5222d" />
+                                        <path
+                                            d="M8.29,18.589a.5.5,0,0,1-.488,0L0,14.255v8.42a.5.5,0,0,0,.5.5H15.589a.5.5,0,0,0,.5-.5v-8.42Z"
+                                            transform="translate(0 -7.087)" fill="#f5222d" />
+                                        <path
+                                            d="M11.011,10.025,9.147,8.161a.5.5,0,0,1,0-.711l1.864-1.864.711.711L10.214,7.806l1.509,1.509Z"
+                                            transform="translate(-4.474 -2.777)" fill="#f5222d" />
+                                        <path
+                                            d="M18.3,10.025l-.711-.711,1.509-1.509L17.586,6.3l.711-.711L20.161,7.45a.5.5,0,0,1,0,.711Z"
+                                            transform="translate(-8.743 -2.777)" fill="#f5222d" />
+                                    </g>
+                                </svg>
+
+                            </i>
+                        </div>
+                        <div class="title">
+                            <h3>Powerful Algorithms</h3>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Collect data in real-time from multiple channels and move it into a data lake, in
+                                its original format.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ——— 3 ——— -->
+                    <div class="whyCard">
+                        <div class="icon">
+                            <i style="background-color: #E6F7FF;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17.32" height="17.32"
+                                    viewBox="0 0 17.32 17.32">
+                                    <g>
+                                        <path
+                                            d="M15.789,17H12.541a.541.541,0,0,0-.541.541v7.036a.541.541,0,0,0,.541.541h3.248a.541.541,0,0,0,.541-.541V17.541A.541.541,0,0,0,15.789,17Z"
+                                            transform="translate(-5.505 -7.799)" fill="#1890ff" />
+                                        <path
+                                            d="M3.789,23H.541A.541.541,0,0,0,0,23.541V27.33a.541.541,0,0,0,.541.541H3.789a.541.541,0,0,0,.541-.541V23.541A.541.541,0,0,0,3.789,23Z"
+                                            transform="translate(0 -10.551)" fill="#1890ff" />
+                                        <path
+                                            d="M27.789,11H24.541a.541.541,0,0,0-.541.541V21.825a.541.541,0,0,0,.541.541h3.248a.541.541,0,0,0,.541-.541V11.541A.541.541,0,0,0,27.789,11Z"
+                                            transform="translate(-11.01 -5.046)" fill="#1890ff" />
+                                        <path
+                                            d="M11.088,6.5a.54.54,0,0,0,.383-.159L15.96,1.848V4.33h1.083V.541A.541.541,0,0,0,16.5,0H12.712V1.083h2.482L11.088,5.189,8.765,2.865a.541.541,0,0,0-.765,0L5.293,5.571l.765.765L8.382,4.013l2.324,2.324A.54.54,0,0,0,11.088,6.5Z"
+                                            transform="translate(-2.428)" fill="#1890ff" />
+                                    </g>
+                                </svg>
+
+                            </i>
+                        </div>
+                        <div class="title">
+                            <h3>Valuable business insights</h3>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Collect data in real-time from multiple channels and move it into a data lake, in
+                                its original format.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ————— Features - Section 3 ————— -->
+    <section id="features">
+        <div class="container mx-auto">
+            <div class="wrapper">
+                <div class="feature">
+                    <div class="image">
+                        <img src="./images/features/feature1.png" alt="feature">
+                    </div>
+                    <div class="content">
+                        <div class="tag">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24.012"
+                                    viewBox="0 0 24 24.012">
+                                    <g transform="translate(0 0.012)">
+                                        <g>
+                                            <path
+                                                d="M8,7.586V5.816a3,3,0,1,0-2,0V8a1,1,0,0,0,.293.707L9,11.414V23a1,1,0,0,0,2,0V11a1,1,0,0,0-.293-.707Z"
+                                                fill="#722ed1" />
+                                            <path
+                                                d="M4,16.586v-1.77a3,3,0,1,0-2,0V17a1,1,0,0,0,.293.707L5,20.414V23a1,1,0,0,0,2,0V20a1,1,0,0,0-.293-.707Z"
+                                                fill="#722ed1" />
+                                            <path
+                                                d="M18,8V5.816a3,3,0,1,0-2,0v1.77l-2.707,2.707A1,1,0,0,0,13,11V23a1,1,0,0,0,2,0V11.414l2.707-2.707A1,1,0,0,0,18,8Z"
+                                                fill="#722ed1" />
+                                            <path
+                                                d="M24,12a3,3,0,1,0-4,2.816v1.77l-2.707,2.707A1,1,0,0,0,17,20v3a1,1,0,0,0,2,0V20.414l2.707-2.707A1,1,0,0,0,22,17V14.816A3,3,0,0,0,24,12Z"
+                                                fill="#722ed1" />
+                                        </g>
+                                    </g>
+                                </svg>
+                                For Product Teams
+                            </p>
+                        </div>
+                        <div class="title">
+                            <h2>
+                                Launch with the best stack
+                            </h2>
+                        </div>
+                        <div class="description">
+                            <p>
+                                A centralized platform that integrates zillions of data sources using Big Data ELT
+                                (Extract, Load & Transform) that leaves no data behind.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="image">
+                        <img src="./images/features/feature2.png" alt="feature">
+                    </div>
+                    <div class="content">
+                        <div class="tag">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23.226" height="24"
+                                    viewBox="0 0 23.226 24">
+                                    <path d="M15.645,2.4V0H14.1V2.4a3.871,3.871,0,1,0,1.548,0Z"
+                                        transform="translate(-3.258)" fill="#722ed1" />
+                                    <path
+                                        d="M20.8,19.773h1.881V18.225H20.021l-3.047-6.087a5.438,5.438,0,0,1-2.529,1.89l2.1,4.2H13.387V16.676H11.839v1.548H8.682l2.1-4.2a5.434,5.434,0,0,1-2.529-1.89L5.2,18.225H2.548v1.548H4.429L1,26.622a3.979,3.979,0,0,0,4.524-2.081l2.384-4.767h3.931v1.548h1.548V19.773h3.931L19.7,24.541a3.979,3.979,0,0,0,4.524,2.081Z"
+                                        transform="translate(-1 -2.741)" fill="#722ed1" />
+                                </svg>
+
+                                For Engineering Teams
+                            </p>
+                        </div>
+                        <div class="title">
+                            <h2>
+                                Data-driven pipelines in minutes
+                            </h2>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Maintenance-free data pipelines with quick set-up and straight-forward deployments that
+                                are powered by a modern & scalable platform.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ————— Feedback - Section 4 ————— -->
+    <section id="feedback">
+        <img src="./images/triangle.png" alt="triangle" class="triangleTop">
+        <img src="./images/triangle.png" alt="triangle" class="triangleBottom">
+        <div class="container mx-auto">
+            <div class="wrapper">
+                <div class="top">
+                    <div class="feedback">
+                        <p>"What I love about Qubly is the easy way we can collaborate even if there is a lot of people
+                            involved in the process"</p>
+                    </div>
+                    <div class="avatar">
+                        <img src="./images/avatar/profile.png" alt="avatar">
+                    </div>
+                    <div class="position">
+                        <h6>Guillaume Cabane</h6>
+                        <h6>CTO @ BigSpring</h6>
+                    </div>
+                </div>
+
+                <div class="companies">
+                    <div class="company">
+                        <img src="./images/companies/tonkean.png" alt="tonkean">
+                    </div>
+                    <div class="company active">
+                        <img src="./images/companies/bigspring.png" alt="bigspring">
+                    </div>
+                    <div class="company">
+                        <img src="./images/companies/clearbit.png" alt="clearbit">
+                    </div>
+                    <div class="company">
+                        <img src="./images/companies/mine.png" alt="mine">
+                    </div>
+                    <div class="company">
+                        <img src="./images/companies/shake.png" alt="shake">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ————— Signup - Section 5 ————— -->
+    <section id="signup">
+        <div class="container mx-auto">
+            <div class="wrapper">
+                <div class="left">
+                    <h3>
+                        See why the world’s best companies use Qubly to become truly data-driven.
+                    </h3>
+                    <div class="divider">
+                        <div class="line"></div>
+                        <div class="trusted">
+                            <span>Trusted By</span>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="companies">
+                        <div class="companyPair">
+                            <div class="company">
+                                <img src="./images/signup/accenture.png" alt="accenture">
+                            </div>
+                            <div class="company">
+                                <img src="./images/signup/react.png" alt="react">
+                            </div>
+                        </div>
+                        <div class="companyPair">
+                            <div class="company">
+                                <img src="./images/signup/airbnb.png" alt="airbnb">
+                            </div>
+                            <div class="company">
+                                <img src="./images/signup/sky.png" alt="sky">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="signup">
+                    <form>
+                        <!-- <div class="shadow"></div> -->
+                        <h2>Sign Up</h2>
+                        <input type="email" placeholder="Your primary email ...">
+                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Re-type password">
+                        <button type="submit">Start your free trial</button>
+                        <div class="or">OR</div>
+                        <div class="signInWithGoogle">
+                            <a href="https://google.com" target="_blank">
+                                <div class="image">
+                                    <img src="./images/signup/google.png" alt="google">
+                                </div>
+                                <span>Sign in with Google</span>
+                            </a>
+                        </div>
+                        <div class="dividerLine"></div>
+                        <div class="alreadyHaveAccount">
+                            <p>Already have an account ? <a href="">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ————— Footer ————— -->
+    <footer id="footer">
+        <div class="container mx-auto">
+            <div class="wrapper">
+                <div class="about">
+                    <div class="image">
+                        <img src="./images/logo2.png" alt="logo">
+                    </div>
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat ut wisi enim ad minim
+                        </p>
+                    </div>
+                    <div class="socials">
+                        <a href="https://facebook.com">
+                            <img src="./images/social/facebook.png" alt="facebook">
+                        </a>
+                        <a href="https://twitter.com">
+                            <img src="./images/social/twitter.png" alt="twitter">
+                        </a>
+                        <a href="https://instagram.com">
+                            <img src="./images/social/instagram.png" alt="instagram">
+                        </a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="">Connections</a></li>
+                        <li><a href="">Protocols</a></li>
+                        <li><a href="">Personas</a></li>
+                        <li><a href="">Integrations </a></li>
+                        <li><a href="">Catalog </a></li>
+                        <li><a href="">Pricing </a></li>
+                        <li><a href="">Security </a></li>
+                        <li><a href="">GDPR </a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <h4>For Developers</h4>
+                    <ul>
+                        <li><a href="">Docs</a></li>
+                        <li><a href="">API</a></li>
+                        <li><a href="">Open Source</a></li>
+                        <li><a href="">Engineering Team</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Press</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="">Help Center</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Security Bulletins</a></li>
+                        <li><a href="">Documentation</a></li>
+                        <li><a href="">Partner Portal</a></li>
+                    </ul>
+                </div>
+                <div class="menu newsletter">
+                    <h4>Newsletter</h4>
+                    <div class="inputBox">
+                        <input type="email" placeholder="Email">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28.01" height="28.01"
+                                viewBox="0 0 28.01 28.01">
+                                <path
+                                    d="M23.686,4.547,4.748,12.8a.434.434,0,0,0,.015.789l5.123,2.894a.826.826,0,0,0,.944-.093l10.1-8.708c.067-.057.227-.165.289-.1s-.036.222-.093.289l-8.739,9.843a.823.823,0,0,0-.083.985l3.348,5.37a.436.436,0,0,0,.784-.01l3.282-7.938,4.548-11A.434.434,0,0,0,23.686,4.547Z"
+                                    transform="translate(14.005 -6.368) rotate(45)" fill="#722ed1" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Javascript Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
