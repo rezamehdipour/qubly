@@ -213,17 +213,11 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 	@include medium() {
 		padding-top: 11rem;
 		padding-bottom: 11rem;
-	}
-
-	.triangle {
-		position: absolute;
-		right: 0;
-		left: 0;
-		bottom: 0;
-		width: 100%;
+		clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 	}
 
 	.wrapper {
@@ -488,21 +482,9 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
-	.triangleTop {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		width: 100%;
-		transform: rotate(180deg);
-	}
-	.triangleBottom {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		width: 100%;
+	clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 20%);
+	@include medium() {
+		clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
 	}
 
 	.wrapper {
