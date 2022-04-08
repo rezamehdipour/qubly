@@ -1,7 +1,7 @@
 # Qubly Landing Page
 
+![preview](preview.jpg)
+
 Written in HTML & CSS, Responsive.
 
-## Preview
-
-![preview](preview.png)
+![Live Preview](https://rezamehdipour.ir/qubly)
