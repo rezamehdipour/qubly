@@ -2,6 +2,6 @@
 
 Written in HTML & CSS, Responsive.
 
-<a align="center" href="https://rezamehdipour.ir/qubly">[ Live Preview ]</a>
+<p align="center"><a href="https://rezamehdipour.ir/qubly">[ Live Preview ]</a></p>
 
 ![preview](preview.jpg)
