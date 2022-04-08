@@ -4,4 +4,4 @@
 
 Written in HTML & CSS, Responsive.
 
-![Live Preview](https://rezamehdipour.ir/qubly)
+[Live Preview](https://rezamehdipour.ir/qubly)
